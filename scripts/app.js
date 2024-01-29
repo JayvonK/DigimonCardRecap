@@ -14,8 +14,6 @@ const digimonApi = async (digimon) => {
     return data;
 }
 
-digimonApi();
-
 digimonInput.addEventListener('keydown', async (event) => {
     //On enter I want this function to run
     if(event.key === 'Enter')
