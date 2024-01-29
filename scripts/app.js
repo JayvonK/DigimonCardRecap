@@ -26,4 +26,8 @@ digimonInput.addEventListener('keydown', async (event) => {
     }
 })
 
+favoriteBtn.addEventListener('click', (event) => {
+    
+})
+
 //https://digimon-api.vercel.app/api/digimon
