@@ -1,3 +1,4 @@
+import { saveToLocalStorage, getLocalStorage, removeFromLocalStorage } from "./localStorage.js";
 //Ids
 
 let digimonImg = document.getElementById("digimonImg");
