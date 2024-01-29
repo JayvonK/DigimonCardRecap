@@ -10,7 +10,7 @@ let favoriteBtn = document.getElementById("favoriteBtn");
 const digimonApi = async (digimon) => {
     const promise = await fetch('https://digimon-api.vercel.app/api/digimon/name/' + digimon);
     const data = await promise.json();
-    console.log(data);
+    // console.log(data);
     return data;
 }
 
