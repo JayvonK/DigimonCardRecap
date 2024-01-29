@@ -41,4 +41,4 @@ const removeFromLocalStorage = (digimon) => {
 
 }
 
-
+export { saveToLocalStorage, getLocalStorage, removeFromLocalStorage }
