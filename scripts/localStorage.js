@@ -27,12 +27,18 @@ const getLocalStorage = () => {
 }
 
 const removeFromLocalStorage = (digimon) => {
+    //We're saving local storage data into favorites variable
     let favorites = getLocalStorage();
 
+    //We're finding the Index of our parameter (digimon)
     let namedIndex = favorites.indexOf(digimon);
 
+    //remove the name from the array using the .splice method
     favorites.splice(namedIndex, 1);
 
+    //We set our new mutated favorites array inside our local storage.
     localStorage.setItem("Favorites", JSON.stringify(favorites));
 
 }
+
+
