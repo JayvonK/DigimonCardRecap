@@ -6,6 +6,8 @@ let digimonName = document.getElementById("digimonName");
 let digimonStatus = document.getElementById("digimonStatus");
 let digimonInput = document.getElementById("digimonInput");
 let favoriteBtn = document.getElementById("favoriteBtn");
+let getFavoritesBtn = document.getElementById("getFavoritesBtn");
+let getFavoritesDiv = document.getElementById("getFavoritesDiv");
 
 let digimon = "";
 
@@ -31,5 +33,7 @@ digimonInput.addEventListener('keydown', async (event) => {
 favoriteBtn.addEventListener('click', (event) => {
     saveToLocalStorage(digimon[0].name);
 })
+
+
 
 //https://digimon-api.vercel.app/api/digimon
